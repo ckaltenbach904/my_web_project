@@ -70,6 +70,11 @@ Start the virtual machine using:
 
 This will download the base box (if not already downloaded) and provision the VM according to the Vagrantfile setup.
 
+
+![image](https://github.com/user-attachments/assets/cec99d7b-02e8-4b96-8ce5-637880bfaccf)
+
+
+
 6. Access the Virtual Machine
 SSH into your VM to set up your web files:
 
