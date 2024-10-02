@@ -181,11 +181,8 @@ Project Structure
 The project structure might look like this:
 
 
-my_web_project/
-├── Vagrantfile
-├── website/            # This will be synced with /var/www/html
-│   ├── index.php
-│   └── styles.css      # Any CSS or other files you might have
+![image](https://github.com/user-attachments/assets/b1e3d219-ff0a-441a-b810-258afe4d9447)
+
 └── README.md
 
 
