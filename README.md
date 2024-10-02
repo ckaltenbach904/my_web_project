@@ -73,6 +73,12 @@ This will download the base box (if not already downloaded) and provision the VM
 
 ![image](https://github.com/user-attachments/assets/cec99d7b-02e8-4b96-8ce5-637880bfaccf)
 
+Optional: If you are getting an error down below, ensure that you configure your VM with the static IP address that is different from any other VM that you already have.
+
+
+![image](https://github.com/user-attachments/assets/aeed7704-7593-4fb2-9b1a-1621567050f7)
+
+
 
 
 6. Access the Virtual Machine
