@@ -100,6 +100,8 @@ Once you’re inside the VM, you can navigate to the web server's document root:
 ![image](https://github.com/user-attachments/assets/1ce97330-a553-46ae-9648-bbe35c45a8d2)
 
 
+Test it by going to your browser search bar and type in exactly the IP address that you configured on the Vagrantfile: xxx.xxx.xx.xx/index.html
+
 ![image](https://github.com/user-attachments/assets/6891fe44-18f6-4272-a19a-01b6d3a155db)
 
 
