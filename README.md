@@ -108,6 +108,7 @@ dummy website:
 Save the file and exit the editor.
 
 8. Test Your Website
+   
 On your host machine, open a browser and navigate to:
 
 ![image](https://github.com/user-attachments/assets/deaec65e-8ebd-4ae4-bd49-5b52df4735f5)
@@ -117,7 +118,9 @@ You should see your website running with Bootstrap styling.
 9. Configure MySQL
    You can set up MySQL for database interactions:
    1. Access MySQL:
+      
    ![image](https://github.com/user-attachments/assets/7c0dad67-6d90-4ae7-9b4c-1a4a70be8c78)
+   
    2. Create a new database and user:
       CREATE DATABASE my_database;
       CREATE USER 'my_user'@'localhost' IDENTIFIED BY 'password';
@@ -127,22 +130,30 @@ You should see your website running with Bootstrap styling.
 
    3. Now you can connect to MySQL from your PHP files using:
       $conn = new mysqli('localhost', 'my_user', 'password', 'my_database');
+      
 
-10. Syncing Local Files with Vagrant
+11. Syncing Local Files with Vagrant
 To make it easier to develop your website, you can sync your local project files with the VM. In your Vagrantfile, add the following line to sync the /var/www/html folder on the VM with a folder on your local machine:
 
+
 ![image](https://github.com/user-attachments/assets/f93c1ef4-4c29-46dd-894a-83ba349b4d29)
+
+
 
 11. Optional: Install phpMyAdmin
 You can optionally install phpMyAdmin to manage your MySQL databases more easily:
 
   1. SSH into the VM:
+   
 
   ![image](https://github.com/user-attachments/assets/09b7c0c1-89ca-4e9e-bebe-b6a4eec0f88c)
+  
 
   2. Install phpMyAdmin:
+     
   ![image](https://github.com/user-attachments/assets/ef6216ee-9f81-440a-8369-d6738db3b1db)
 
+  
   3. Follow the installation instructions, and then access phpMyAdmin at:
      http://localhost:8080/phpmyadmin
 
@@ -153,6 +164,7 @@ You can optionally install phpMyAdmin to manage your MySQL databases more easily
 
 
 Recap:
+
 Vagrant and VirtualBox are used to set up the development environment.
 I installed Apache, PHP, and MySQL on an Ubuntu VM.
 I created a basic website using HTML, CSS, Bootstrap, PHP, and set up MySQL.
@@ -169,7 +181,7 @@ Project Structure
 The project structure might look like this:
 
 
-      my_web_project/
+my_web_project/
 ├── Vagrantfile
 ├── website/            # This will be synced with /var/www/html
 │   ├── index.php
@@ -177,7 +189,9 @@ The project structure might look like this:
 └── README.md
 
 
-  Create a README.md file in your project root:
+
+Create a README.md file in your project root:
+
  ![image](https://github.com/user-attachments/assets/00a7e648-7541-41c8-8f7c-073b5257cb73)
 
 
