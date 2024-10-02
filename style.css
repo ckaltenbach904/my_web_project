@@ -1,0 +1,108 @@
+/* Color scheme inspired by PMI */
+:root {
+  --pmi-dark-blue: #1f375f;
+  --pmi-light-blue: #00a0e1;
+  --pmi-orange: #ff6f21;
+  --pmi-purple: #a020f0;
+  --pmi-green: #007d44;
+  --pmi-black: #000000;
+  --pmi-white: #ffffff;
+}
+
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: var(--pmi-dark-blue);
+}
+
+h1,
+h2 {
+  color: var(--pmi-dark-blue);
+  font-weight: bold;
+}
+
+/* Header */
+header {
+  background-color: var(--pmi-black);
+  color: var(--pmi-white);
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+/* Section Titles */
+h2 {
+  margin-bottom: 30px;
+  font-size: 2.25rem;
+}
+
+/* Form Labels */
+label {
+  color: var(--pmi-dark-blue);
+  font-weight: bold;
+}
+
+/* Form Inputs */
+.form-control,
+.form-select {
+  border: 1px solid var(--pmi-dark-blue);
+  color: var(--pmi-dark-blue);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--pmi-orange);
+  box-shadow: none;
+}
+
+/* Button */
+.btn-primary {
+  background-color: var(--pmi-orange);
+  border-color: var(--pmi-orange);
+}
+
+.btn-primary:hover {
+  background-color: var(--pmi-dark-blue);
+  border-color: var(--pmi-dark-blue);
+}
+
+/* Team Section */
+#ourTeam h4 {
+  color: var(--pmi-dark-blue);
+  font-weight: bold;
+}
+
+#ourTeam p {
+  color: var(--pmi-dark-blue);
+}
+
+#ourTeam img {
+  border: 4px solid var(--pmi-light-blue);
+}
+
+/* Contact Section */
+#contactUs {
+  background-color: var(--pmi-light-blue);
+  padding: 40px 0;
+  color: var(--pmi-white);
+}
+
+/* Map Section */
+#map {
+  border: 2px solid var(--pmi-dark-blue);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  background-color: var(--pmi-dark-blue);
+  color: var(--pmi-white);
+  padding: 20px;
+}

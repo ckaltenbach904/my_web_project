@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servant-Leader Institut</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-black text-white text-center py-4">
+      <h1>Servant-Leader Institut (SLI)</h1>
+      <p>
+        Empowering servant leaders with agile coaching, communication, and
+        management principles
+      </p>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="container mt-5">
+      <h2>Introduction</h2>
+      <p>
+        At the <strong>Servant-Leader Institut (SLI)</strong>, we are committed
+        to developing the next generation of servant leaders who prioritize the
+        well-being of their teams and communities. We believe in the
+        transformative power of servant leadership, where empathy,
+        collaboration, and vision create sustainable growth for individuals and
+        organizations.
+      </p>
+      <p>
+        Our mission is to empower leaders with cutting-edge tools, strategies,
+        and techniques that emphasize agile coaching, communication excellence,
+        and management innovation. Our programs are designed to bridge
+        traditional leadership principles with modern methodologies, fostering a
+        culture of trust, transparency, and shared success.
+      </p>
+      <p>
+        Whether you are an aspiring leader or a seasoned professional, SLI
+        offers exclusive training programs, hands-on group coaching, and
+        recognized certifications to equip you with the skills needed to lead in
+        today’s dynamic business world.
+      </p>
+    </section>
+
+    <!-- About Us -->
+    <section class="container mt-5">
+      <h2>About Us</h2>
+      <p>
+        The Servant-Leader Institut (SLI) is a startup with a mission to empower
+        servant leaders with agile coaching, communication, and management
+        principles, tools, and techniques. We offer exclusive training programs,
+        leadership development, and certifications to enhance your leadership
+        skills.
+      </p>
+      <p>
+        SLI focuses on combining servant leadership with agile methodologies to
+        bring about positive change in individuals and organizations. Our
+        trainers and coaches bring decades of experience across diverse
+        industries, and we pride ourselves on fostering a community of
+        continuous learners who aim to make a meaningful impact.
+      </p>
+    </section>
+
+    <!-- Certification Preparation Section -->
+    <section class="container mt-5">
+      <h2>Certification Preparation</h2>
+      <p>
+        We offer certification preparation for a variety of Project Management
+        Institute (PMI) certifications. These certifications are globally
+        recognized and help demonstrate your proficiency in project management
+        and leadership.
+      </p>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="PMP Certification"
+            class="mb-3"
+          />
+          <h4>Project Management Professional (PMP)</h4>
+          <p>
+            The PMP certification is the gold standard for project management.
+            It demonstrates your expertise in managing teams, projects, and
+            workflows.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="CAPM Certification"
+            class="mb-3"
+          />
+          <h4>Certified Associate in Project Management (CAPM)</h4>
+          <p>
+            The CAPM certification is perfect for those looking to start their
+            project management career, providing foundational knowledge and
+            skills.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="ACP Certification"
+            class="mb-3"
+          />
+          <h4>Agile Certified Practitioner (ACP)</h4>
+          <p>
+            The PMI-ACP certification validates your expertise in Agile
+            principles and practices, helping you lead Agile teams more
+            effectively.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="PBA Certification"
+            class="mb-3"
+          />
+          <h4>Professional in Business Analysis (PBA)</h4>
+          <p>
+            The PMI-PBA certification demonstrates your ability to perform
+            business analysis tasks, identify business needs, and recommend
+            solutions.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="RMP Certification"
+            class="mb-3"
+          />
+          <h4>Risk Management Professional (RMP)</h4>
+          <p>
+            The PMI-RMP certification proves your ability to assess and mitigate
+            project risks, helping ensure successful project outcomes.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="PgMP Certification"
+            class="mb-3"
+          />
+          <h4>Program Management Professional (PgMP)</h4>
+          <p>
+            The PgMP certification highlights your ability to manage multiple,
+            related projects and ensure alignment with organizational goals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses and Registration -->
+    <section class="container mt-5">
+      <h2>Our Courses</h2>
+      <form id="registrationForm" action="db.php" method="POST">
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            name="first_name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            name="last_name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="address" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="address"
+            name="address"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone (Optional)</label>
+          <input
+            type="tel"
+            class="form-control"
+            id="phone"
+            name="phone"
+            placeholder="Format: 123-456-7890"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="preferredCourse" class="form-label"
+            >Preferred Course</label
+          >
+          <select
+            class="form-select"
+            id="preferredCourse"
+            name="preferred_course"
+            required
+          >
+            <option value="PMI Certification">PMI Certifications</option>
+            <option value="Leadership Communication">
+              Leadership Communication
+            </option>
+            <option value="7 Habits & Agile Mindset">
+              Covey's 7 Habits & Agile Mindset
+            </option>
+            <option value="Group Coaching">Group Coaching</option>
+            <option value="Certifications">Certifications</option>
+          </select>
+        </div>
+        <div id="pmiOptions" class="mb-3" style="display: none">
+          <label for="pmiCertification" class="form-label"
+            >Choose PMI Certification</label
+          >
+          <select
+            class="form-select"
+            id="pmiCertification"
+            name="pmi_certification"
+          >
+            <option value="PMP">PMP</option>
+            <option value="CAPM">CAPM</option>
+            <option value="ACP">ACP</option>
+            <option value="PBA">PBA</option>
+            <option value="RMP">RMP</option>
+            <option value="PfMP">PfMP</option>
+            <option value="PgMP">PgMP</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </section>
+
+    <!-- Members Section -->
+    <section id="ourTeam" class="container mt-5">
+      <h2>Our Team</h2>
+      <p>
+        Meet the leaders behind the Servant-Leader Institut who bring their
+        wealth of experience in servant leadership and agile coaching.
+      </p>
+
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="John Doe"
+            class="rounded-circle mb-3"
+          />
+          <h4>John Doe</h4>
+          <p><strong>Chief Executive Officer</strong></p>
+          <p>
+            With over 20 years of experience in agile leadership, John brings a
+            wealth of knowledge in transforming teams through servant leadership
+            principles.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Jane Smith"
+            class="rounded-circle mb-3"
+          />
+          <h4>Jane Smith</h4>
+          <p><strong>Head of Agile Coaching</strong></p>
+          <p>
+            Jane has a decade of experience coaching teams and leaders in agile
+            methodologies, helping them navigate challenges and achieve their
+            goals efficiently.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Michael Lee"
+            class="rounded-circle mb-3"
+          />
+          <h4>Michael Lee</h4>
+          <p><strong>Leadership Development Director</strong></p>
+          <p>
+            Michael specializes in leadership development, with a focus on
+            fostering communication, trust, and growth within organizations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section id="contactUs" class="container mt-5 text-center">
+      <h2>Contact Us</h2>
+      <p>Email: info@servantleaderinstitut.com</p>
+      <p>Phone: 123-456-7890</p>
+      <p>Address: 123 Leadership Ave, Agile City</p>
+    </section>
+
+    <!-- Google Map -->
+    <section class="container mt-5 text-center">
+      <h2>Location</h2>
+      <div id="map" style="width: 100%; height: 400px"></div>
+    </section>
+
+    <!-- Imprint -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+      <p>Imprint: Servant-Leader Institut | All Rights Reserved 2024</p>
+    </footer>
+    <!-- Including script.js for client-side functionality -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Including script.js for client-side functionality -->
+    <script src="script.js"></script>
+    <script>
+      function initMap() {
+        var location = { lat: 49.950238281196846, lng: 8.456929861707735 }; // Example coordinates for Agile City
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 10,
+          center: location,
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+        });
+      }
+    </script>
+
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANqq9bsCRdfrw6Q1Lp2Pzf0Fl64WXu5Po&callback=initMap"
+    ></script>
+  </body>
+</html>
