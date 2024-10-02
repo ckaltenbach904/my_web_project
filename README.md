@@ -80,6 +80,21 @@ Optional: If you are getting an error down below, ensure that you configure your
 
 
 
+Here's how i changed the vagrantfile configuration:
+
+
+![image](https://github.com/user-attachments/assets/5f600053-59e0-4663-8da6-e31558edae61)
+
+and ensure that the IP chosen is not the same as your other VM
+
+
+![image](https://github.com/user-attachments/assets/df414fd3-34cc-4ddb-bc9f-5da1d695d91b)
+
+
+
+HAHA! Problem Solved!
+
+
 
 6. Access the Virtual Machine
 SSH into your VM to set up your web files:
