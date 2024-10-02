@@ -99,7 +99,9 @@ HAHA! Problem Solved!
 6. Access the Virtual Machine
 SSH into your VM to set up your web files:
 
-![image](https://github.com/user-attachments/assets/64d4d8ee-e5d4-4ebc-82e4-ae5b63ac5911)
+
+![image](https://github.com/user-attachments/assets/dc03c6d4-8455-4950-a721-3bceed260579)
+
 
 Once you’re inside the VM, you can navigate to the web server's document root:
 
