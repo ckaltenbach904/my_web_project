@@ -237,7 +237,7 @@ This project sets up a basic web environment using Vagrant, VirtualBox, Apache, 
 
 ## Setup Instructions
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine or on-premise server:
    ```bash
    git clone https://github.com/your-username/my_web_project.git
 
