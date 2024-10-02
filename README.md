@@ -88,14 +88,6 @@ Here's how i changed the vagrantfile configuration:
 and ensure that the IP chosen is not the same as your other VM
 
 
-![image](https://github.com/user-attachments/assets/df414fd3-34cc-4ddb-bc9f-5da1d695d91b)
-
-
-
-HAHA! Problem Solved!
-
-
-
 6. Access the Virtual Machine
 SSH into your VM to set up your web files:
 
@@ -106,6 +98,10 @@ SSH into your VM to set up your web files:
 Once you’re inside the VM, you can navigate to the web server's document root:
 
 ![image](https://github.com/user-attachments/assets/1ce97330-a553-46ae-9648-bbe35c45a8d2)
+
+
+![image](https://github.com/user-attachments/assets/6891fe44-18f6-4272-a19a-01b6d3a155db)
+
 
 7. Set Up Your Website Files
 You can now create your HTML, CSS, Bootstrap, and PHP files here:
